@@ -1132,6 +1132,24 @@ textarea.form-input::-webkit-resizer {
 }
 
 
+@media (max-width: 480px) {
+
+    .icon-box {
+        bottom: -1px;
+        left: 6px;
+    }
+
+    .timeline-item::after {
+        position: absolute;
+        top: 8px;
+        left: -32.5px;
+    }
+    .skills-item:not(:last-child) {
+        margin-bottom: 8px;
+    }
+}
+
+
 /* responsive larger than 580px screen */
 @media (min-width: 580px) {
 
