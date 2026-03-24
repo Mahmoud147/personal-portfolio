@@ -1134,9 +1134,21 @@ textarea.form-input::-webkit-resizer {
 
 @media (max-width: 480px) {
 
+    .info_more-btn {
+        padding: 4px;
+        font-size: 12px;
+    }
+    .info_more-btn span {
+        display: block;
+    }
+
+    .sidebar.active {
+        max-height: 435px;
+    }
+
     .icon-box {
         bottom: -1px;
-        left: 6px;
+        left:6px;
     }
 
     .timeline-item::after {
